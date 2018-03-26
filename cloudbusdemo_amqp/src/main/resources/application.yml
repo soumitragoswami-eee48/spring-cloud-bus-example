@@ -1,0 +1,12 @@
+spring:
+  application:
+      name: cloudBusDemo
+      index: ${random.uuid} # this ensures that our applicationId is unique
+  rabbitmq:
+      host: <host-ip>
+      port: 5672
+      username: guest
+      password: guest
+    
+server:
+    port: 9445
